@@ -1,0 +1,107 @@
+﻿
+@{
+    ViewBag.Title = "Processamento";
+}
+
+
+@{
+    ViewBag.Title = "LayoutForms";
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card card-outline-warning">
+            <div class="card-body">
+                <form action="#">
+                    <div class="form-body">
+                        <div class="row p-t-20">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label class="control-label">Usu&aacute;rio</label>
+                                    <input type="text" id="usuarioDriver" class="form-control" placeholder="Ex: $123456">
+                                    <small class="form-control-feedback">Insira seu usu&aacute;rio do Driver.</small>
+                                </div>
+                            </div>
+                            <!--/span-->
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label class="control-label">Senha</label>
+                                    <input type="password" id="senhaDriver" class="form-control form-control">
+                                    <small class="form-control-feedback"> Insira sua senha do Driver. </small>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <br />
+                                <button type="submit" class="btn btn-warning" style="margin-top: 0.4em;"> <i class="fa fa-play"></i> Iniciar</button>
+                            </div>
+                            <!--/span-->
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Row -->
+<div class="row">
+    <div class="col-lg-3">
+        <div class="card text-center">
+            <div class="card-body">
+                <h4 class="text-warning">Qtd. a Processar</h4>
+                <h4>0</h4>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3">
+        <div class="card text-center">
+            <div class="card-body">
+                <h4 class="text-warning">Follow Up<br></h4>
+                <h4>0<br></h4>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3">
+        <div class="card text-center">
+            <div class="card-body">
+                <h4 class="text-warning">Pend&ecirc;ncia Tratativa</h4>
+                <h4 class="text-danger">0<br></h4>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3">
+        <div class="card text-center">
+            <div class="card-body">
+                <h4 class="text-warning">Efetiva&ccedil;&atilde;o Cr&eacute;dito</h4>
+                <h4 class="text-success">0<br></h4>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        <p class="text-warning">Aguandando in&iacute;cio do processamento.</p>
+    </div>
+</div>
+@section scripts
+{
+    <script src="~/assets/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="~/assets/plugins/bootstrap/js/popper.min.js"></script>
+    <script src="~/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="~/assets/js/jquery.slimscroll.js"></script>
+    <!--Wave Effects -->
+    <script src="~/assets/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="~/assets/js/sidebarmenu.js"></script>
+    <!--stickey kit -->
+    <script src="~/assets/plugins/sticky-kit-master/sticky-kit.min.js"></script>
+    <script src="~/assets/plugins/sparkline/jquery.sparkline.min.js"></script>
+    <!--Custom JavaScript -->
+    <script src="~/assets/js/custom.min.js"></script>
+    <!-- ============================================================== -->
+    <!-- Style switcher -->
+    <!-- ============================================================== -->
+    <script src="~/assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
+}
+
